@@ -3,7 +3,7 @@ import {Colors} from "../Colors.ts";
 import {Cell} from "../Cell.ts";
 
 import blackLogo from "../../assets/black-bishop.png";
-import whiteLogo from "../../assets/black-bishop.png";
+import whiteLogo from "../../assets/white-bishop.png";
 
 export class Bishop extends Figure {
 
