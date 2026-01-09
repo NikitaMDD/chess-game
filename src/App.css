@@ -28,6 +28,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all ease-in-out 0.3s;
 }
 
 .cell img {
@@ -42,4 +43,20 @@ body {
 
 .white {
     background-color: #eed4ac;
+}
+
+.selected {
+    background-color: rgba(255, 103, 103);
+}
+
+.available {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    /*background-color: #1480C0;*/
+    background-color: #44BABD;
+}
+
+.can-be-attacked {
+    background-color: #44BABD;
 }
