@@ -5,14 +5,17 @@
 
 body {
     background: rgb(39 39 42);
+    color: white;
+    font-family: "Comfortaa", sans-serif;
 }
 
 .app {
     width: 100vh;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 }
 
 .board {
@@ -59,4 +62,28 @@ body {
 
 .can-be-attacked {
     background-color: #44BABD;
+}
+
+.timer {
+    margin-right: 50px;
+}
+
+.lost {
+    height: calc(50vh - 60px);
+    padding: 30px;
+    margin-left: 50px;
+    color: white;
+    background-color: rgb(99 102 241);
+}
+
+.btn {
+    background-color: rgb(99 102 241);
+    color: white;
+    border: none;
+    border-radius: .375rem;
+    padding: 15px 1.25rem;
+    font-weight: 500;
+    width: 170px;
+    margin: 0 0 30px;
+    cursor: pointer;
 }
